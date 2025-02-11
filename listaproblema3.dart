@@ -3,6 +3,7 @@ import 'dart:io';
 // Función para capturar los datos del inventario
 List<String> capturarInventario() {
   List<String> inventario = [];
+  print('Kristian David Munoz Salazar Mat: 22308051281082');
   print("¡Bienvenido al sistema de gestión de inventario!");
   print("Ingrese el número de objetos que desea agregar:");
   int cantidad = int.parse(stdin.readLineSync()!);
